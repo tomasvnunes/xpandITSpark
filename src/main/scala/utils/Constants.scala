@@ -39,12 +39,12 @@ object Constants {
   }
 
   object Files {
-    val BestAppsFile = "best_apps.csv"
-    val BestAppsFolder = CommonOutputFolder+"best"
-    val CleanedAppsFile = "googleplaystore_cleaned"
-    val CleanedAppsFolder = CommonOutputFolder+"cleaned"
-
     private val CommonOutputFolder = "output/"
+
+    val BestAppsFile = "best_apps.csv"
+    val BestAppsFolder: String = CommonOutputFolder+"best"
+    val CleanedAppsFile = "googleplaystore_cleaned"
+    val CleanedAppsFolder: String = CommonOutputFolder+"cleaned"
   }
 
 
